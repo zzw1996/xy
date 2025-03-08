@@ -1,0 +1,17 @@
+apiVersion: v1alpha1
+kind: Setting
+metadata:
+  name: xy-setting
+spec:
+  forms:
+    - group: wxconfig
+      label: 微信配置
+      formSchema:
+        - $formkit: text
+          name: appid
+          label: appid
+          value: ""
+        - $formkit: text
+          name: appsecret
+          label: appsecret
+          value: ""

@@ -53,4 +53,16 @@ build {
 
 halo {
     version = '2.20'
+<<<<<<< HEAD
 }
+=======
+    superAdminUsername = 'admin'
+    superAdminPassword = 'admin'
+    externalUrl = 'http://localhost:8090'
+    docker {
+        // windows 默认为 npipe:////./pipe/docker_engine
+        url = 'unix:///var/run/docker.sock'
+        apiVersion = '1.48'
+    }
+}
+>>>>>>> 3194de9 (Initial commit)

@@ -4,11 +4,16 @@ apiVersion: plugin.halo.run/v1alpha1
 kind: Plugin
 metadata:
   # The name defines how the plugin is invoked, A unique name
+<<<<<<< HEAD
   name: starter
+=======
+  name: XY
+>>>>>>> 3194de9 (Initial commit)
 spec:
   enabled: true
   requires: ">=2.20.0"
   author:
+<<<<<<< HEAD
     name: Halo
     website: https://github.com/halo-dev
   logo: logo.png
@@ -20,3 +25,18 @@ spec:
   license:
     - name: "GPL-3.0"
       url: "https://github.com/halo-dev/plugin-starter/blob/main/LICENSE"
+=======
+    name: Zzw
+    website: https://lxfzzw.top
+  logo: logo.png
+  homepage: https://github.com/zzw1996/xy#readme
+  repo: https://github.com/zzw1996/xy
+  issues: https://github.com/zzw1996/xy/issues
+  displayName: "小宥"
+  description: "这是专门给小宥制作的插件"
+  settingName: xy-setting
+  configMapName: xy-setting
+  license:
+    - name: "GPL-3.0"
+      url: "https://github.com/zzw1996/xy/blob/main/LICENSE"
+>>>>>>> 3194de9 (Initial commit)

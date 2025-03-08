@@ -3,5 +3,9 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+<<<<<<< HEAD
 rootProject.name = 'plugin-starter'
+=======
+rootProject.name = 'XY'
+>>>>>>> 3194de9 (Initial commit)
 
