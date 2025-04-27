@@ -15,3 +15,7 @@ spec:
           name: appsecret
           label: appsecret
           value: ""
+        - $formkit: text
+          name: openid
+          label: openid
+          value: ""
