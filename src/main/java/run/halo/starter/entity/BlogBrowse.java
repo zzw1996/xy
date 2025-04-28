@@ -15,4 +15,5 @@ import run.halo.app.extension.GVK;
     plural = "blogbrowse",
     singular = "blogbrowse")
 public class BlogBrowse extends AbstractExtension {
+    
 }

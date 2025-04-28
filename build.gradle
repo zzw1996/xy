@@ -53,9 +53,6 @@ build {
 
 halo {
     version = '2.20'
-<<<<<<< HEAD
-}
-=======
     superAdminUsername = 'admin'
     superAdminPassword = 'admin'
     externalUrl = 'http://localhost:8090'
@@ -65,4 +62,3 @@ halo {
         apiVersion = '1.48'
     }
 }
->>>>>>> 3194de9 (Initial commit)
